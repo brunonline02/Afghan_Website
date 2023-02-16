@@ -1,7 +1,7 @@
 import  { useEffect, useState } from 'react';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet'
-import getEntries from './Contentful';
+import getEntries from '../Contentful';
 
 export default function Events() {
 

@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
-import getEntries from './Contentful';
-import './App.css';
+import getEntries from '../Contentful';
 
 export default function Footer() {
 

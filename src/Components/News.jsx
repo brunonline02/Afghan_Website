@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import getEntries from './Contentful';
+import getEntries from '../Contentful';
 
 export default function News() {
     
