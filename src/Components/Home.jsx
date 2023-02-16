@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <div>
       <section>  
-        <h1>{about.name}</h1>
+        <h1 className='name'>{about.name}</h1>
         <p>{about.description}</p>
-        <h2>About</h2>
+        <h2 className='title'>About</h2>
         <p>{about.aboutUs}</p>
       </section>
     </div>

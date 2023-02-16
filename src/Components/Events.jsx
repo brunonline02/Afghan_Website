@@ -49,11 +49,11 @@ export default function Events() {
   return (
     <div>
         <section>
-            <h2>Events</h2>
+            <h1 className='name'>Events</h1>
             <ul>
                 {events.map(item => (
                 <li key={item.sys.id}>
-                    <h3>{item.fields.title}</h3>
+                    <h2 className='title'>{item.fields.title}</h2>
                     <p>{new Date(item.fields.date).toLocaleString('en-US', { 
                     year: 'numeric', 
                     month: 'long', 
@@ -62,7 +62,7 @@ export default function Events() {
                     minute: 'numeric',
                     hour12: true
                     })}</p>
-                    <div id={`mapid-${item.sys.id}`} style={{height: "400px", width: "400px"}}></div>
+                    <div className='map' id={`mapid-${item.sys.id}`}></div>
                 </li>
                 ))}
             </ul>

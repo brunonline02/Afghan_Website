@@ -16,12 +16,12 @@ export default function News() {
   return (
     <div>
       <section>
-        <h2>News</h2>
+        <h1 className='name'>News</h1>
         <ul>
         {news.map(item => (
           <li key={item.sys.id}>
-            <h3>{item.fields.title}</h3>
-            <p>{item.fields.body}</p>
+            <h2 className='title'>{item.fields.title}</h2>
+            <p className='news-text'>{item.fields.body}</p>
           </li>
         ))}
       </ul>

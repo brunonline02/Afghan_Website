@@ -9,10 +9,10 @@ export default function Nav() {
               HOME
             </Link>
             <Link to="/News">
-              PROJECTS
+              NEWS
             </Link>
             <Link to="/Events">
-              CONTACT
+              EVENTS
             </Link>
         </nav>
     </header>
