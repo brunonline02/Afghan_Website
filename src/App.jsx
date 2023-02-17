@@ -1,13 +1,12 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './Layout';
-import Home from './Components/Home';
-import News from './Components/News';
-import Events from './Components/Events';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
+import Home from "./Components/Home";
+import News from "./Components/News";
+import Events from "./Components/Events";
+import "./App.css";
 
 export default function App() {
-
   return (
     <BrowserRouter>
       <Routes>
@@ -20,4 +19,4 @@ export default function App() {
       </Routes>
     </BrowserRouter>
   );
-};
+}

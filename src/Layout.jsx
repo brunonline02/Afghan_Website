@@ -6,8 +6,10 @@ export default function Layout() {
   return (
     <>
       <Nav />
-      <Outlet />
+      <div className="content">
+        <Outlet />
+      </div>
       <Footer />
     </>
-  )
-};
+  );
+}
